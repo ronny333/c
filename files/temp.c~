@@ -1,0 +1,26 @@
+#include<stdio.h>
+main()
+{
+FILE *fp;
+fp=fopen("temp11.c","r+");
+if(fp==NULL)
+{
+printf("File not present....\n");
+return;
+}
+
+char find[20];
+char *p;
+
+int c=0;
+while(fgetc(fp)!=EOF)
+c++;
+rewind(fp);
+p=malloc(c);
+while(fgets(p,c,fp))
+{
+if(strstr(p,"hello"))
+printf("%s \n",p);
+}
+
+}
