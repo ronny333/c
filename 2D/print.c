@@ -1,3 +1,4 @@
+//http://ecomputernotes.com/computer-graphics/basic-of-computer-graphics/what-is-frame-buffer
 #include<stdio.h>
 main()
 {
