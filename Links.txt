@@ -5,3 +5,5 @@
 3)A simple node.js-based GPIO helper for the Raspberry Pi: https://github.com/rakeshpai/pi-gpio
 
 4)How to create a connected mini weather station using a Raspberry Pi : http://aissam.me/2015/01/03/raspberry-pi-weather-station.html
+
+5) monitoring-your-home-via-wifi: https://learn.adafruit.com/monitor-your-home-with-the-raspberry-pi-b-plus/monitoring-your-home-via-wifi
