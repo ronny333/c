@@ -1,0 +1,3 @@
+DHT11 sensor with raspberrry pi and nodejs : node-dht-sensor- https://github.com/momenso/node-dht-sensor
+Using NodeJS to develop a temperature server with the Raspberry Pi : https://tomholderness.wordpress.com/2013/01/03/raspberry-pi-temperature-server/
+A simple node.js-based GPIO helper for the Raspberry Pi: https://github.com/rakeshpai/pi-gpio
