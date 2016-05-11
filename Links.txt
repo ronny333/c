@@ -8,3 +8,5 @@
 
 5) monitoring-your-home-via-wifi: https://learn.adafruit.com/monitor-your-home-with-the-raspberry-pi-b-plus/monitoring-your-home-via-wifi
 6) raspberry-pi-node-js-blynk-app-dht11-dht22-am2302 : https://www.hackster.io/vshymanskyy/raspberry-pi-node-js-blynk-app-dht11-dht22-am2302-c356a8
+
+7) MQTT learning good example with server and client : http://thejackalofjavascript.com/getting-started-mqtt/#disqus_thread 
