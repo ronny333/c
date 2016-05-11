@@ -10,3 +10,5 @@
 6) raspberry-pi-node-js-blynk-app-dht11-dht22-am2302 : https://www.hackster.io/vshymanskyy/raspberry-pi-node-js-blynk-app-dht11-dht22-am2302-c356a8
 
 7) MQTT learning good example with server and client : http://thejackalofjavascript.com/getting-started-mqtt/#disqus_thread 
+
+8) Nodejs + HCSR04: http://thejackalofjavascript.com/rpi-an-ultrasonic-sensor-measure-distances/
