@@ -12,3 +12,7 @@
 7) MQTT learning good example with server and client : http://thejackalofjavascript.com/getting-started-mqtt/#disqus_thread 
 
 8) Nodejs + HCSR04: http://thejackalofjavascript.com/rpi-an-ultrasonic-sensor-measure-distances/
+
+9) Creating RESTful APIs with Express 4 : https://www.sitepoint.com/creating-restful-apis-express-4/
+
+10) Build a RESTful API Using Node and Express 4 : https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4
