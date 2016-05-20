@@ -16,3 +16,5 @@
 9) Creating RESTful APIs with Express 4 : https://www.sitepoint.com/creating-restful-apis-express-4/
 
 10) Build a RESTful API Using Node and Express 4 : https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4
+
+11) GPS project location finder: http://www.stuffaboutcode.com/2013/09/raspberry-pi-gps-setup-and-python.html
