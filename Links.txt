@@ -19,3 +19,5 @@
 
 11) GPS project location finder: http://www.stuffaboutcode.com/2013/09/raspberry-pi-gps-setup-and-python.html
 12) RPI location tracker : http://www.instructables.com/id/Raspberry-Pi-Location-Tracker/?ALLSTEPS
+
+13) ESP8266 DHT11 controller - YouTube : https://www.youtube.com/watch?v=QdHpa9qweaY
