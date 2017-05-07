@@ -1,5 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+#define LOG_CHECK_ERROR(__CONDITION__)					\
+	do								\
+	{								\
+		if ((__CONDITION__)){					\
+			printf("LOG_CHECK_ERROR called"); goto Exit0;}   \
+	} while (0)
+
 enum Error_Code
 {
 	eSuccess,
@@ -7,6 +14,7 @@ enum Error_Code
 	eFailed=-1,
 	eInsufficientMem=-2
 };
+
 int add_end(int *a,int data,int *size)
 {
 	*size+=1;
@@ -42,13 +50,6 @@ void print(int *arr,int size)
 		printf("%d ",arr[i]);
 	printf("\n");	
 }
-
-#define LOG_CHECK_ERROR(__CONDITION__)			\
-	do											\
-	{											\
-		if ((__CONDITION__)){					\
-			printf("LOG_CHECK_ERROR called"); goto Exit0;}   \
-	} while (0)
 
 int main()
 {
