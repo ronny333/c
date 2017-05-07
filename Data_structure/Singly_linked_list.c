@@ -3,6 +3,7 @@
     - Add at begin
     - Add at end
     - Print list
+    - Reverse list
 */
 #include <stdio.h>
 #include <stdlib.h>
@@ -25,6 +26,22 @@ typedef struct node
 	int data;
 	struct node *next;
 }Node;
+
+void Reverse_list(Node **head)
+{
+	printf("Reverse linked list\n");
+	Node *current=*head;
+	Node *prev=NULL,*next;
+	while(current)
+	{
+		next=current->next;
+		current->next=prev;
+		prev=current;
+		current=next;
+	}
+	*head=prev;
+}
+
 int add_end(Node **head,int data)
 {
 	Node *n=(Node*)malloc(sizeof(Node));
@@ -90,6 +107,8 @@ int main()
 	iRetCode = add_end(&head,44);
 	LOG_CHECK_ERROR(iRetCode);
 	
+	print(head);
+	Reverse_list(&head);
 	print(head);
 Exit0:	
 	return 0;	
